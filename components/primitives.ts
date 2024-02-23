@@ -51,3 +51,20 @@ export const subtitle = tv({
     fullWidth: true
   }
 });
+
+
+export const btn = tv({
+	base: 'pt-[0.75rem] pb-[0.75rem] pl-[2rem] pr-[2rem] rounded-md',
+  });
+
+export const heading = tv({
+	variants:{
+		level: {
+			h1: "text-4xl lg:text-5xl font-extrabold tracking-tighter",
+			h2: "text-3xl lg:text-4xl font-extrabold tracking-tighter",
+			h3: "text-2xl lg:text-3xl font-extrabold tracking-tighter",
+			h4: "text-xl lg:text-2xl font-extrabold tracking-tighter",
+			h5: "text-lg lg:text-xl font-extrabold tracking-tighter",
+		}
+	}
+})
